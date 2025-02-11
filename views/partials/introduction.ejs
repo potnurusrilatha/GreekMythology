@@ -1,0 +1,24 @@
+<!-- <% if(locals.paragraphUnderline) { %>
+    <p class="<% paragraphUnderline ? "underline" : "no-underline" %>">
+        Welcome to my page
+    </p>
+<% } %> -->
+
+<% if(locals.pageType) { %>
+   <% if(pageType==="heroes" ) { %>
+    <div>
+        <h3> Welcome to the heroes Page</h3>
+        <p>Here you can read about all the adventures the anicent Greek Heroes.</p>
+    </div>
+<% } else if (pageType==="gods" ) { %>
+        <div>
+            <h3>Welcome to the gods Page</h3>
+            <p>The Greek God live on top of Moun Olympust</p>
+        </div>
+<% } else { %>
+        <div>
+            <h3>Welcome to the Greek Mythology Website</h3>
+            <p>Here you can read about god an heroes</p>
+        </div>
+<% } %>
+<% } %>

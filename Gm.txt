@@ -1,0 +1,7 @@
+/ - Home page
+
+gods -  Zeus
+        - hera
+    
+heroes - hercules
+        odysseus

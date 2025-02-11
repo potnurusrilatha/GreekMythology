@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('../partials/head') %>
+
+<body>
+    <%- include('../partials/header') %>
+    <%- include('../partials/menu') %>
+    <% if (locals.hero) { %>
+        <h2><%= hero.name %></h2>
+        <h4>power: <%=hero.power %> </h4>
+        <div>
+            <p><% hero.description %> </p>
+
+         </div>
+<%} %>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(132, 157, 167);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body.gods {
+    background-color: rgb(149, 180, 98);
+}
+
+body.heroes {
+    background-color: rgb(165, 116, 108);
+}
+
+.header {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.header__title--container {
+    color: #ffff;  
+    text-align: center;
+}
+
+.header-title {
+    font-size: 3rem;
+    
+}
+
+.header-subtitle {
+    font-size: 2rem;
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+.header {
+    display: block;
+
+}
+.header__image {
+    display: block;
+    margin: auto;
+}
+}
